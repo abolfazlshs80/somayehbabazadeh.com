@@ -1,0 +1,445 @@
+* {
+    font-family: 'iransans';
+}
+
+.back-menubar {
+    background-color: #4D565D;
+    width: 100%;
+    height: 500px;
+
+}
+
+#banner {
+
+    background-image: url("./../Images/slide4.jpg");
+    width: 100%;
+    height: 80%;
+}
+
+.btn-rezerve {
+    width: 114px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 7px 20px;
+    font-size: 15px;
+
+}
+
+#logo-img>img {
+    color: black;
+    height: 50px;
+}
+
+.nav>.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'titr';
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#card-site {
+    position: absolute;
+    top: 746px;
+    height: 500px;
+    left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+#card-site .col-md-4 {
+    padding: 20px;
+}
+
+#request {
+    background-color: #71797E;
+}
+
+#rezerve {
+    background-color: #5A6268;
+}
+
+#time {
+    background-color: #3D474E;
+}
+
+#card-site .col-md-4>.col-md-9 {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#card-site .col-md-4>.col-md-9 p,
+h5 {
+    color: white;
+}
+
+#card-site .col-md-4>.col-md-3 {
+    display: flex;
+    align-items: center;
+}
+
+#card-site .col-md-4>.col-md-3 i {
+    color: white;
+    font-size: 30px;
+
+}
+
+.cz_gradient_title {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    background-image: linear-gradient(to right,#252220,#6d6d6d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#cz_86218 {
+    background-image: url(http://somayehbabazadeh.com/wp-content/uploads/2017/06/hair5-1.jpg);
+    margin-top: 20px;
+}
+
+.cz_title {
+    position: relative;
+    z-index: 1;
+}.clr:before, .clr:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clr:after {
+    clear: both;
+}
+
+#cz_14194 .cz_shape_1 {
+    font-size: 75px;
+    color: rgba(0,0,0,0.07);
+    top: 20px;
+}
+.rtl .cz_title_shape {
+    left: auto;
+    right: 0;
+}
+.cz_title_shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 140px;
+    font-weight: 900;
+    width: 100%;
+    line-height: 1;
+    pointer-events: none;
+    transform-origin: 0;
+    z-index: 1;
+    word-wrap: initial;
+    transition: all .2s ease-in-out;
+}#cz_14194 .cz_shape_1 {
+    font-size: 75px;
+    color: rgba(0,0,0,0.07);
+    top: 20px;
+}
+
+#cz_14194 .cz_title_content {
+    padding-bottom: 40px;
+}
+.cz_title_content {
+    display: table;
+    position: relative;
+    word-break: break-word;
+    transition: all .2s ease-in-out;
+}
+#cz_14194 .cz_title_line span, #cz_14194 .cz_line_side_solo {
+    background-color: #000000;
+    width: 75px;
+    left: 90px;
+}#cz_14194 .cz_wpe_content {
+    transform: rotate(-25deg);
+}
+
+@keyframes opImage {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+  @keyframes LineNameTop {
+    from {top: 43%;}
+    to {top: 26%;}
+  }
+  
+  /* The element to apply the animation to */
+  .cardline:hover {
+
+    opacity: 1;
+    animation-name: opImage;
+    animation-duration: 4s;
+  }
+  .cardline>div{
+    opacity: 1;
+    background-color: #3d474e;
+  } .cardline>img{
+    opacity: 0.2;
+
+  }
+
+  .linename:hover{
+    top: 26%;
+  }
+
+  .cardline > div>a>img{
+    opacity: 0.2;
+ 
+  }
+  .cardline > div>a>img:hover{
+    opacity: 1;
+    padding: 30px;
+    border: 2px solid red;
+ 
+  }
+   
+   
+
+  #cz_105698 .cz_wh_line {
+    border-color: rgba(0,0,0,0.19);
+}
+.cz_wh_line_between .cz_wh_line {
+    position: absolute;
+    content: '';
+    width: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+}
+.cz_wh_line {
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+    /*
+    body {
+       background-color: red;
+    }
+*/
+    #card-site .col-md-4{
+        margin-right: 10px;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media (min-width:750px) {
+  
+
+/* body{
+        background-color: blue;
+    }
+    */
+}
+#v-pills-tab>button{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 17px;
+    font-family: 'iransans';
+color: #80667D;
+}
+#v-pills-tab>button:hover{
+background-color: #F8F8F8;
+}
+.tab-pane{
+    border: 2px solid #F8F8F8;border-radius: 25px;
+    background-color:#F8F8F8 ;
+    color: #80667D;
+    text-align: center;
+    margin-top: 10px;
+}
+.banner-title{
+
+
+}
+
+.deconstructed {
+    position: relative;
+    margin: auto;
+    height: 1.71em;
+    margin-top: 20%;
+    color: transparent;
+    font-family: 'Cambay', sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.03em;
+
+    text-align: center;
+  }
+  
+  .deconstructed > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    pointer-events: none;
+  }
+  
+  .deconstructed > div:nth-child(1) {
+    -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+    mask-image: linear-gradient(black 25%, transparent 25%);
+    animation: deconstructed1 5s infinite;
+  }
+  
+  .deconstructed > div:nth-child(2) {
+    -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+    animation: deconstructed2 5s infinite;
+  }
+  
+  .deconstructed > div:nth-child(3) {
+     -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+    mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+    animation: deconstructed3 5s infinite;
+  }
+  
+  .deconstructed > div:nth-child(4) {
+     -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+    mask-image: linear-gradient(transparent 75%, black 75%);
+    animation: deconstructed4 5s infinite;
+  }
+  
+  @keyframes deconstructed1 {
+    0% {
+      transform: translateX(100%);
+    }
+    26% {
+      transform: translateX(0%);
+    }
+    83% {
+      transform: translateX(-0.1%);
+    }
+    100% {
+      transform: translateX(-120%);
+    }
+  }
+  
+  @keyframes deconstructed2 {
+    0% {
+      transform: translateX(100%);
+    }
+    24% {
+      transform: translateX(0.5%);
+    }
+    82% {
+      transform: translateX(-0.2%);
+    }
+    100% {
+      transform: translateX(-125%);
+    }
+  }
+  
+  @keyframes deconstructed3 {
+    0% {
+      transform: translateX(100%);
+    }
+    22% {
+      transform: translateX(0%);
+    }
+    81% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-130%);
+    }
+  }
+  
+  @keyframes deconstructed4 {
+    0% {
+      transform: translateX(100%);
+    }
+    20% {
+      transform: translateX(0%);
+    }
+    80% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-135%);
+    }
+  }
+
+
+  .center{
+  
+}
+
+p{
+  
+    
+}
+
+.char{
+    font-size: 20px;
+    font-family: 'titr';
+    height: 40px;
+    display: inline;
+    animation: an 1s ease-out 1 both;
+
+}
+
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+
+/*animate number* @property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.number {
+  animation: counter 5s infinite alternate ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.number::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 24;
+  }
+}/
+
